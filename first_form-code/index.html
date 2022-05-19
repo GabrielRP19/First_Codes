@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+  <link rel="stylesheet" href="css/first-style.css">
+</head>
+
+<body>
+  <div id="header">
+    <h1 id="title">Cadastro de Vagas</h1>
+    <p id="description">
+      Vagas para Restaurante.<br>
+      preencha o formulario !
+    </p>
+  </div>
+
+  <form id="survey-form">
+    <fieldset class="field">
+      <div id="area-cadastro">
+        <label class="labels" id="name-label">Nome</label>
+        <input type="text" name="nome" id="name" placeholder="Preencha com seu nome" required>
+
+        <label class="labels" id="email-label">Email</label>
+        <input type="email" name="email" id="email" placeholder="Escreva seu Email" required>
+
+        <label class="labels" id="number-label">Idade</label>
+        <input type="number" name="idade" id="number" placeholder="preencha com sua idade" min="25" max="55" required>
+      </div>
+    </fieldset>
+
+    <div id="preferences">
+      <label>Escolha uma ocupação:</label><br>
+      <label>
+        <input type="radio" name="vaga" value="chef" checked>Chef
+      </label>
+
+      <label>
+        <input type="radio" name="vaga" value="auxiliar">Auxiliar de Cozinha
+      </label>
+
+      <label>
+        <input type="radio" name="vaga" value="garcom">Garçom
+      </label>
+
+      <label>
+        <input type="radio" name="vaga" value="chapeiro">Chapeiro
+      </label>
+
+      <label>
+        <input type="radio" name="vaga" value="faxineiro">Faxineiro
+      </label>
+    </div>
+
+    <div id="options">
+      <label>Preferencia de Cidade:</label>
+      <select id="dropdown" class="selected">
+        <option selected disabled>Opções</option>
+        <option value="São-Paulo">São Paulo</option>
+        <option value="Bahia">Bahia</option>
+        <option value="Belo-Horizonte">Belo Hozonte</option>
+        <option value="Goias">Goias</option>
+      </select>
+    </div>
+
+    <fieldset class="field">
+      <div id="checkbox">
+        <label>Disponibilidade para horario:</label><br>
+        <label for="manha">Pela Manhã</label>
+        <input type="checkbox" id="manha" name="horario" value="pela-manha">
+        <label for="tarde">Pela Tarde</label>
+        <input type="checkbox" id="tarde" name="horario" value="pela-tarde">
+        <label for="noite">Pela Noite</label>
+        <input type="checkbox" id="noite" name="horario" value="pela-noite">
+      </div>
+    </fieldset>
+
+    <div id="footer">
+      <br>
+      <label class="title">Fale mais sobre você aqui:</label>
+      <textarea rows="6" style="width: 20em;" name="complemento" placeholder="Eu acredito que mereço esta vaga por..."></textarea>
+    </div>
+    <div>
+      <button id="submit" type="submit">concluir</button>
+      <p id="anima"> Boa Sorte !</p>
+    </div>
+  </form>
+</body>
+
+</html>

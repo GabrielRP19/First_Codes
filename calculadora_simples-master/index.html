@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Gabriel Rocha, GitHub - GabrielRP19">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora Simples</title>
+
+        <!--AREA_DE-LINKS-->
+        <link rel="stylesheet" href="CSS/first_style.css">
+    </head>
+    <body>
+        <main>
+
+            <header class="title">
+                <h1>CALCULADORA SIMPLES</h1>
+            </header>
+            <form action="" name="Calculator">
+                <div class="container">
+                    <div class="section">
+                        <input type="text" class="campo_texto" name="text1" disabled>
+                        <button class="btn" name="text12" value="C" onclick="location.reload()">C</button>
+                    </div>
+                    <br>
+                    
+                    <div class="section">
+                        <button type="button" class="btn" name="btn9" value="9" onclick="displaynum(btn9.value)">9</button>
+                        <button type="button" class="btn" name="btn8" value="8" onclick="displaynum(btn8.value)">8</button>
+                        <button type="button" class="btn" name="btn7" value="7" onclick="displaynum(btn7.value)">7</button>
+
+                        <button type="button" class="btn_imagem" name="addbtn" value="+" onclick="displaynum(addbtn.value)">
+                            <img class="btn_soma" src="imgs/adicao.png" alt="IMAGEM_BOTÃO DE SOMAR" />
+                        </button>
+                    </div>
+                    <br>
+
+                    <!------------------------------------------------------------------------->
+                    <div class="section">
+                        <button type="button" class="btn" name="btn6" value="6" onclick="displaynum(btn6.value)">6</button>
+                        <button type="button" class="btn" name="btn5" value="5" onclick="displaynum(btn5.value)">5</button>
+                        <button type="button" class="btn" name="btn4" value="4" onclick="displaynum(btn4.value)">4</button>
+
+                        <button type="button" class="btn_imagem" name="subbtn" value="-" onclick="displaynum(subbtn.value)">
+                            <img class="btn_sub" src="imgs/subtracao.png" alt="IMAGEM_BOTÃO DE SUBTRAIR" />
+                        </button>
+                    </div>
+                    <br>
+
+                    <!------------------------------------------------------------------------->
+                    <div class="section">
+                        <button type="button" class="btn" name="btn3" value="3" onclick="displaynum(btn3.value)">3</button>
+                        <button type="button" class="btn" name="btn2" value="2" onclick="displaynum(btn2.value)">2</button>
+                        <button type="button" class="btn" name="btn1" value="1" onclick="displaynum(btn1.value)">1</button>
+                        
+                        <button type="button" class="btn_imagem" name="mulbtn" value="*" onclick="displaynum(mulbtn.value)">
+                            <img class="btn_mult" src="imgs/multiplicacao.png" alt="IMAGEM_BOTÃO DE MULTIPLICAR" />
+                        </button>
+                    </div>
+                    <br>
+
+                    <!------------------------------------------------------------------------->
+                    <div class="section">
+                        <button type="button" class="btn" name="dot" value="." onclick="displaynum(dot.value)">.</button>
+                        <button type="button" class="btn" name="btn0" value="0" onclick="displaynum(btn0.value)">0</button>
+                        
+                        <button type="button" class="btn_imagem" name="eqlbtn" value="=" onclick="text1.value=eval(text1.value)">
+                            <img class="btn_igual" src="imgs/igual.png" alt="IMAGEM_BOTÃO DE VER RESULTADO" />
+                        </button>
+                        
+                        <button type="button" class="btn_dividir btn_imagem" name="divbtn" value="/" onclick="displaynum(divbtn.value)">
+                            <img class="btn_dividir" src="imgs/divisao.png" alt="IMAGEM_BOTÃO DE DIVIDIR" />
+                        </button>
+                    </div>
+                </div>    
+            </form>
+        </main>
+
+        <footer>
+                <h4>&copy;copyright</h4>
+        </footer>
+    </body>
+    <!--AREA_DE-SCRIPTS-->
+    <script src="JavaScript/first_script.js"></script>
+</html>

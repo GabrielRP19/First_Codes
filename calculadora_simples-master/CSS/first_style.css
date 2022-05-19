@@ -1,0 +1,97 @@
+/* CSS RESET - FONTES*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: #ff0000;
+    background-image: linear-gradient(43deg, #ff0000 1%, #ff8d00 100%);   
+    font-family: josefins sans, Arial, Helvetica, sans-serif;
+}
+
+/* ESTILOS Do HEADER */
+
+header.title {
+    color: #FFF;
+    text-align: center;
+    font-family: inherit;
+    padding-top: 3em;
+}
+
+form {
+    text-align: center;
+    padding: 0em 20em;
+}
+
+.container {
+    border: outset;
+    
+    background-color: #0093E9;
+    border-radius: 1em;
+    margin: 25%;
+    padding: 2em;
+}
+
+.section {
+    display: flex;
+    place-items: normal;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ESTILO DO CAMPO DE TEXTO */
+
+input.campo_texto {
+    padding: 1em 0em;
+    color: #FFF;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 1%;
+    border-radius: 0.5em;
+}
+
+/* STILOS DO BOTÃO */
+
+button.btn {
+    font-size: 1.5em;
+    padding: 0.8em 1em;
+    border-style: none;
+    margin: 0.3%;
+    border-radius: 0.7em;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+button.btn:hover {
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    color: #FFF;
+
+}
+
+/* ESTILOS DAS IMAGENS */
+
+.btn_imagem {
+    display: contents;
+}
+
+img {
+    height: auto;
+    cursor: pointer;
+    width: 60px;
+    margin: 0% 1%;
+}
+
+/* ESTILOS DAS IMAGENS */
+
+footer {
+    color: #FFF;
+    font-size: 1.3em;
+    font-variant: small-caps;
+    text-align: center;
+    padding: 1em;
+}

@@ -1,0 +1,18 @@
+.add_task-button {
+    background-color: #2a5298;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 5px;
+    margin: 0.3em;
+    width: 100%;
+    font-size: 16px;
+    color: #FFF;
+    font-weight: bold;
+    transition: cubic-bezier(.4,.8,.76,.23) 0.5s;
+    cursor: pointer;
+    border: none;
+}
+
+.add_task-button:hover {
+    background-color: #FF0000;
+}

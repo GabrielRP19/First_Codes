@@ -1,0 +1,14 @@
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    overflow: auto;
+    min-height: 300px;
+    color: #FFF;
+    border: 2px solid #da0000;
+    background-image: linear-gradient(to right top, #ff0000, #ed0000, #da0000, #c90000, #b70000);
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 30px;
+}

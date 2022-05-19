@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Nike</title>
+    <link rel="stylesheet" href="css/my_style.css">
+</head>
+
+<body>
+    <!-- MENU DO SITE -->
+    <header id="header">
+        <img src="https://i.postimg.cc/0NZnRLBB/nike.png" alt="LOGO DA NIKE" id="header-img" />
+        <nav id="nav-bar">
+            <a href="#menu" class="nav-link"><img src="imgs/casa.png" alt="HOME" class="img_nav"></a>
+            <a href="#produtos" class="nav-link"><img src="imgs/compras-online.png" alt="SHOPPING" class="img_nav"></a>
+            <a href="#contatos" class="nav-link"><img src="imgs/contato.png" alt="SEARCH" class="img_nav"></a>
+        </nav>
+    </header>
+
+    <!-- CONTEÚDO DO SITE -->
+    <main id="menu">
+        <article class=" box container_description">
+            <section class="box_description">
+                <h1>Nome do Produto</h1>
+                <div class="description">
+                    <p>Tamanho : </p>
+                    <p>Cor : </p>
+                    <p>Ano : </p>
+                </div>
+                <h2>
+                    R$ 00,00
+                </h2>
+            </section>
+            <section class="box_button">
+                <button class="btn-1">
+                    Comprar Agora
+                </button>
+            </section>
+        </article>
+
+        <article class="box container_images">
+            <img src="imgs/produtos/produto_exmplo-1.jpg" alt="IMAGEM DO PRODUTO" />
+        </article>
+    </main>
+
+    <article id="produtos" class="container_produtos">
+        <h2>Produtos Nike</h2>
+        <p>Estes são produtos <em>NIKE</em> de ultima geração.</p>
+
+        <iframe id="video" width="727" height="409" src="https://www.youtube.com/embed/km-JR3CAjHI"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+        <div class="box_produtos">
+            <div class="produtos">
+                <h3>Air Max 2021</h3>
+                <img src="imgs/produtos/produto_exmplo-2.jpg" alt="Produto de Teste">
+            </div>
+            <div class="produtos">
+                <h3>Air Jordan 1</h3>
+                <img src="imgs/produtos/produto_exmplo-2.jpg" alt="Produto de Teste">
+            </div>
+            <div class="produtos">
+                <h3>Air Max 2090</h3>
+                <img src="imgs/produtos/produto_exmplo-2.jpg" alt="Produto de Teste">
+            </div>
+            <div class="produtos">
+                <h3>Academy</h3>
+                <img src="imgs/produtos/produto_exmplo-2.jpg" alt="Produto de Teste">
+            </div>
+        </div>
+    </article>
+
+    <section id="contatos">
+        <h2>Contato</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input name="email" id="email" type="email" placeholder="Insira seu E-mail aqui" required />
+            <input id="submit" type="submit" value="ENVIAR" class="btn-2" />
+        </form>
+    </section>
+
+    <!-- FIM DO SITE -->
+    <footer class="footer">
+        <p>Copyright©2001-2022</p>
+        <p>Pagina de Produtos | NIKE</p>
+    </footer>
+</body>
+
+</html>
